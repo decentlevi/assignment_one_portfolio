@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
-  "version": "0.0.0",
+  "name": "assignment-one-portfolio",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./server.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -12,5 +12,24 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
-  }
+  },
+  "description": "my web portfolio",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentlevi/assignment_one_portfolio.git"
+  },
+  "author": "ThankGod Nnaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentlevi/assignment_one_portfolio/issues"
+  },
+  "homepage": "https://github.com/decentlevi/assignment_one_portfolio#readme",
+  "keywords": [
+    "my",
+    "web",
+    "app",
+    "portfolio"
+  ]
 }
