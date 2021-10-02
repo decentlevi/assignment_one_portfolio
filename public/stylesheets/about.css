@@ -3,7 +3,17 @@
  * Student ID:
  * Student Name:
  */
-
+ .cover{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/ba.jpg);
+  background-size: cover;
+  background-position-y: center;
+  overflow: hidden;
+ }
  .wrapper{
   margin: auto;
   margin-top: 5em;
@@ -13,6 +23,7 @@
 
 .statement{
   line-height: 2;
+  text-align: justify;
 }
 
 .skill-display{
